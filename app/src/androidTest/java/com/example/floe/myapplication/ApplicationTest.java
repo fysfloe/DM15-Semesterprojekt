@@ -1,4 +1,4 @@
-package dm15.pdandroid;
+package com.example.floe.myapplication;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
