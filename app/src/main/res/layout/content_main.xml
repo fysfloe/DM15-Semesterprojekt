@@ -13,11 +13,6 @@
     tools:showIn="@layout/activity_main"
     tools:context="com.example.floe.myapplication.MainActivity">
 
-    <TextView
-        android:text="Meine geile App"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,4 +20,29 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Latitude"
+        android:id="@+id/latitude_text"
+        android:textIsSelectable="true"
+        android:layout_alignBottom="@+id/longitude_text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Longitude"
+        android:id="@+id/longitude_text"
+        android:textIsSelectable="true"
+        android:layout_marginTop="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>
